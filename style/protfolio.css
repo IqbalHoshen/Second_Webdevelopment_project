@@ -3,6 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 /* common style */
@@ -16,31 +17,49 @@ body {
     font-weight: 800;
 }
 
-.button_pri{
+.button_pri {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
     color: #FFF;
-font-size: 20px;
-font-weight: 700;
-padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 
 }
 
-.text_primary{
+.text_primary {
     color: #FD6E0A;
 }
- nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-    
- }
- nav li{
+
+}
+
+nav li {
     list-style: none;
     margin-right: 50px;
 
- }
- nav a{
+}
+
+nav a {
     text-decoration: none;
     color: #474747;
- }
+}
+
+.header_color {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 205px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile_pic {
+    width: 500px;
+     
+}
